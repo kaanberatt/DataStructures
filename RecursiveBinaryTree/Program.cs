@@ -91,27 +91,3 @@ class Node
     public Node LeftNode { get; set; }
     public Node RightNode { get; set; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Console.WriteLine("Index: {0}",index);
-//Console.ReadLine();
-
-
-
