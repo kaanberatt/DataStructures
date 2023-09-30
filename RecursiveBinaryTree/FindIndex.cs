@@ -1,5 +1,5 @@
 ﻿
-namespace RecursiveBinaryTree;
+namespace DataStructures.RecursiveBinaryTree;
 
 public class FindIndex
 {

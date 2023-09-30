@@ -11,7 +11,7 @@
 */
 
 
-int[] datas =  { 8 , 3 , 10 , 1 , 6 , 4 ,7 ,10 , 14, 13};
+int[] datas = { 8, 3, 10, 1, 6, 4, 7, 10, 14, 13 };
 
 var rootNode = new Node(datas[0]); // rootNode ilk elemanla başlatılır.
 
@@ -22,11 +22,18 @@ foreach (var data in datas.Skip(1)) // Ilk elemanı atlayarak (çünkü o zaten 
 
 Traverse(rootNode);
 
-var result = isContains(6, rootNode); 
+var x = 6;
+
+var result = isContains(x, rootNode);
+
+
+Console.WriteLine($"{x} is {result}");
+
+
 
 Console.ReadLine();
 
-bool isContains(int value, Node rootNode) 
+bool isContains(int value, Node rootNode)
 {
     // Girilen sayının Node içerisinde olup olmadığını kontrol eder.
     if (rootNode == null)
@@ -37,7 +44,7 @@ bool isContains(int value, Node rootNode)
 
     if (value < rootNode.Val)
         return isContains(value, rootNode.LeftNode);
-    
+
     else
         return isContains(value, rootNode.RightNode);
 }

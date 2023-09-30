@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveBinaryTree", "RecursiveBinaryTree\RecursiveBinaryTree.csproj", "{3B565F09-9811-451A-B922-9F70DD318947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.RecursiveBinaryTree", "RecursiveBinaryTree\DataStructures.RecursiveBinaryTree.csproj", "{3B565F09-9811-451A-B922-9F70DD318947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Trie", "Trie\DataStructures.Trie.csproj", "{35DB35E4-4987-42E8-8C94-B8E3782C18FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3B565F09-9811-451A-B922-9F70DD318947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B565F09-9811-451A-B922-9F70DD318947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B565F09-9811-451A-B922-9F70DD318947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DB35E4-4987-42E8-8C94-B8E3782C18FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DB35E4-4987-42E8-8C94-B8E3782C18FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DB35E4-4987-42E8-8C94-B8E3782C18FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DB35E4-4987-42E8-8C94-B8E3782C18FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
